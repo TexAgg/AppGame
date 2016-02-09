@@ -1,0 +1,10 @@
+﻿<Window x:Class="AppGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="main_button" Content="Press me" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="136" RenderTransformOrigin="2.958,6.927" Margin="188,0,0,135.8" Height="59" Cursor="Arrow" Click="main_button_click"/>
+        <Label x:Name="main_label" Content="I am the label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="188,54,0,0" Width="136" RenderTransformOrigin="1.091,0.458" Height="67" FontSize="16" Cursor="Arrow"/>
+
+    </Grid>
+</Window>
