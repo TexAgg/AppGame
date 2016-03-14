@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="AppGame" Height="350" Width="525" Background="Black">
     <Window.TaskbarItemInfo>
-        <TaskbarItemInfo Description="Game" ProgressState="Indeterminate">
+        <TaskbarItemInfo Description="Game" ProgressState="Normal">
         </TaskbarItemInfo>
     </Window.TaskbarItemInfo>
     <Grid x:Name="background" Background="Gray">
