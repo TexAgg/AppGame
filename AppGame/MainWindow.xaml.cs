@@ -58,9 +58,15 @@ namespace AppGame
         private void strobe()
         {
             if (main_button_pressed)
+            {
                 background.Background = new SolidColorBrush(Color.FromRgb(255, 204, 0));
+                alien_message.Text = "LMAO";
+            }
             else
-                background.Background = new SolidColorBrush(Color.FromRgb(128,128,128));
+            {
+                background.Background = new SolidColorBrush(Color.FromRgb(128, 128, 128));
+                alien_message.Text = "Ayyy";
+            }
         }
     }
 }

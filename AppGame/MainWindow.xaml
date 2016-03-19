@@ -8,10 +8,12 @@
     </Window.TaskbarItemInfo>
     <Grid x:Name="background" Background="Gray">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="149*"/>
-            <ColumnDefinition Width="370*"/>
+            <ColumnDefinition Width="117*"/>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="119*"/>
+            <ColumnDefinition Width="250*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="main_button" Content="Press me" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="136" RenderTransformOrigin="2.958,6.927" Margin="39.4,0,0,135.8" Height="59" Cursor="Arrow" Click="main_button_click" Foreground="Black" Background="#FFF02626" FontSize="18" FontFamily="Comic Sans MS" BorderThickness="2" UseLayoutRounding="False" AllowDrop="True" Grid.Column="1">
+        <Button x:Name="main_button" Content="Press me" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="136" RenderTransformOrigin="2.958,6.927" Margin="39.4,0,0,135.8" Height="59" Cursor="Arrow" Click="main_button_click" Foreground="Black" Background="#FFF02626" FontSize="18" FontFamily="Comic Sans MS" BorderThickness="2" UseLayoutRounding="False" AllowDrop="True" Grid.Column="2" Grid.ColumnSpan="2">
             <Button.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -19,8 +21,9 @@
                 </LinearGradientBrush>
             </Button.BorderBrush>
         </Button>
-        <Label x:Name="main_label" Content="I am the label" HorizontalAlignment="Left" Margin="39.4,54,0,0" Width="136" RenderTransformOrigin="1.091,0.458" Height="67" FontSize="16" Cursor="Arrow" FontFamily="Comic Sans MS" VerticalAlignment="Top" FontStretch="Expanded" Grid.Column="1"/>
-        <TextBlock x:Name="display_count" Grid.Column="1" HorizontalAlignment="Left" Height="48" Margin="39.2,208,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="136" FontFamily="Comic Sans MS" FontSize="24"/>
+        <Label x:Name="main_label" Content="I am the label" HorizontalAlignment="Left" Margin="39.2,54,0,0" Width="136" RenderTransformOrigin="1.091,0.458" Height="67" FontSize="16" Cursor="Arrow" FontFamily="Comic Sans MS" VerticalAlignment="Top" FontStretch="Expanded" Grid.Column="2" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="display_count" Grid.Column="2" HorizontalAlignment="Left" Height="48" Margin="39.2,208,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="136" FontFamily="Comic Sans MS" FontSize="24" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="alien_message" Margin="47,54,0,0" TextWrapping="Wrap" Text="Ayyy" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="90" HorizontalAlignment="Left" Width="71" FontFamily="Segoe Script"/>
 
     </Grid>
 </Window>
