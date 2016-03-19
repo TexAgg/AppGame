@@ -61,11 +61,13 @@ namespace AppGame
             {
                 background.Background = new SolidColorBrush(Color.FromRgb(255, 204, 0));
                 alien_message.Text = "LMAO";
+                img.Source = new BitmapImage(new Uri("ayy.jpg", UriKind.Relative));
             }
             else
             {
                 background.Background = new SolidColorBrush(Color.FromRgb(128, 128, 128));
                 alien_message.Text = "Ayyy";
+                img.Source = new BitmapImage(new Uri("lmao.jpg", UriKind.Relative));
             }
         }
     }
